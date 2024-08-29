@@ -1,0 +1,71 @@
+/* custom-clip.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-gradient-to-r {
+    background: linear-gradient(to right, #f87171, #2563eb);
+  }
+  
+  .flex-col {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .rounded-xl {
+    border-radius: 1rem;
+  }
+  
+  .overflow-hidden {
+    overflow: hidden;
+  }
+  
+  .relative {
+    position: relative;
+  }
+  
+  .pl-4 {
+    padding-left: 1rem;
+  }
+  
+  .pr-4 {
+    padding-right: 1rem;
+  }
+  
+  .p-2 {
+    padding: 0.5rem;
+  }
+  
+  .text-white {
+    color: white;
+  }
+  
+  .text-3xl {
+    font-size: 1.875rem; /* Equivalent to text-3xl */
+  }
+  
+  .text-lg {
+    font-size: 1.125rem; /* Equivalent to text-lg */
+  }
+  
+  .mt-4 {
+    margin-top: 1rem;
+  }
+  
+  .p-4 {
+    padding: 1rem;
+  }
+  
+  .bg-blue-500 {
+    background-color: #3b82f6;
+  }
+  
+  .rounded-full {
+    border-radius: 9999px;
+  }
+  
+  .shadow-lg {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  }
+  
+  
